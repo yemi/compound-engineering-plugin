@@ -341,7 +341,7 @@ Based on problem type, optionally invoke specialized agents to review the docume
 
 - **performance_issue** → `ce-performance-oracle`
 - **security_issue** → `ce-security-sentinel`
-- **database_issue** → `ce-data-integrity-guardian`
+- **database_issue** → _(no specialized agent)_
 - Any code-heavy issue → always run `ce-code-simplicity-reviewer` for minimal, clear examples. Structural concerns in the diff are already covered when the same work goes through `/ce-code-review` (maintainability persona).
 
 </parallel_tasks>
@@ -567,7 +567,7 @@ Based on problem type, these agents can enhance documentation:
 ### Specific Domain Experts
 - **ce-performance-oracle**: Analyzes performance_issue category solutions
 - **ce-security-sentinel**: Reviews security_issue solutions for vulnerabilities
-- **ce-data-integrity-guardian**: Reviews database_issue migrations and queries
+- _(database_issue has no specialized agent)_
 
 ### Enhancement & Research
 - **ce-best-practices-researcher**: Enriches solution with industry best practices

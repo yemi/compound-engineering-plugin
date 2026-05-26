@@ -237,7 +237,7 @@ Prepare a concise planning context summary (a paragraph or two) to pass as input
 
 Run these agents in parallel:
 
-- Task ce-repo-research-analyst(Scope: technology, architecture, patterns. {planning context summary})
+- Task project-architect(Scope: technology, architecture, patterns. {planning context summary})
 - Task ce-learnings-researcher(planning context summary)
 Collect:
 - Technology stack and versions (used in section 1.2 to make sharper external research decisions)
@@ -276,9 +276,9 @@ Based on the origin document, user signals, and local findings, decide whether e
 - **Topic risk** — Security, payments, external APIs warrant more caution regardless of user signals.
 - **Uncertainty level** — Is the approach clear or still open-ended?
 
-**Leverage ce-repo-research-analyst's technology context:**
+**Leverage project-architect's technology context:**
 
-The ce-repo-research-analyst output includes a structured Technology & Infrastructure summary. Use it to make sharper external research decisions:
+The project-architect output includes a structured Technology & Infrastructure summary. Use it to make sharper external research decisions:
 
 - If specific frameworks and versions were detected (e.g., Rails 7.2, Next.js 14, Go 1.22), pass those exact identifiers to ce-framework-docs-researcher so it fetches version-specific documentation
 - If the feature touches a technology layer the scan found well-established in the repo (e.g., existing Sidekiq jobs when planning a new background job), lean toward skipping external research -- local patterns are likely sufficient
