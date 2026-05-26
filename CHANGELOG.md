@@ -1,5 +1,24 @@
 # Changelog
 
+## [3.9.0](https://github.com/yemi/compound-engineering-plugin/compare/cli-v3.8.4...cli-v3.9.0) (2026-05-26)
+
+
+### Features
+
+* convert hooks to .codex/hooks.json for Codex target ([#742](https://github.com/yemi/compound-engineering-plugin/issues/742)) ([60b66dd](https://github.com/yemi/compound-engineering-plugin/commit/60b66dd904c3a81e0a25dd3bc61e2d94d8837f86))
+
+
+### Bug Fixes
+
+* **agents:** rename .agent.md to .md for VS Code Copilot tool access ([#846](https://github.com/yemi/compound-engineering-plugin/issues/846)) ([796bea7](https://github.com/yemi/compound-engineering-plugin/commit/796bea75b74f3b101b53f7cc1c108aece0979e6b))
+* **ce-code-review:** replace resolve-base.sh with prose-driven base detection ([#815](https://github.com/yemi/compound-engineering-plugin/issues/815)) ([d090bde](https://github.com/yemi/compound-engineering-plugin/commit/d090bde0ff1bbc33ec3c3b2049cb4687e9d76532))
+* **ce-coherence-reviewer:** remove Bash from tool allowlist ([#837](https://github.com/yemi/compound-engineering-plugin/issues/837)) ([82b8af4](https://github.com/yemi/compound-engineering-plugin/commit/82b8af415d9ca5577577fa80da0a6119fc8b661e))
+* **ce-plan:** render Implementation Units as headings, not bulleted list items ([#766](https://github.com/yemi/compound-engineering-plugin/issues/766)) ([be2efd7](https://github.com/yemi/compound-engineering-plugin/commit/be2efd7d7605c483ea9f068c6190b81a9d68e942))
+* **ce-resolve-pr-feedback:** paginate GraphQL connections ([#807](https://github.com/yemi/compound-engineering-plugin/issues/807)) ([07a6d52](https://github.com/yemi/compound-engineering-plugin/commit/07a6d52879ed715e179ff11daaee47e02bc6ecc9))
+* **ce-sessions:** unblock session-history on Claude Code ([#800](https://github.com/yemi/compound-engineering-plugin/issues/800)) ([81710ef](https://github.com/yemi/compound-engineering-plugin/commit/81710efad5666831715a630b04554a35946afb1d))
+* **codex:** respect CODEX_HOME for profile installs ([#830](https://github.com/yemi/compound-engineering-plugin/issues/830)) ([a0a08a1](https://github.com/yemi/compound-engineering-plugin/commit/a0a08a17cb178655baeabe4045b5164b3a5cef58))
+* **doc-review:** cut review noise on plans, scope personas to doc shape ([#780](https://github.com/yemi/compound-engineering-plugin/issues/780)) ([8349e75](https://github.com/yemi/compound-engineering-plugin/commit/8349e750b856d267b74fbbeb2fb135e4ff73eb91))
+
 ## [3.8.4](https://github.com/EveryInc/compound-engineering-plugin/compare/cli-v3.8.3...cli-v3.8.4) (2026-05-21)
 
 
